@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6a21caf-3f92-4f57-92e6-ff710fad03ad" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/test/TestDistanceCounter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gravity-r&amp;d-task.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gravity-r&amp;d-task.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/gravity-r&amp;d-task/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/gravity-r&amp;d-task/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/gravity-r&amp;d-task/Util.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output_2_8.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/output_2_8.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DistanceCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DistanceCounter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DistanceCounter.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,14 +18,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.42936674">
+    <splitter split-orientation="horizontal" split-proportion="0.41684064">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/Main.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="153">
-                  <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+                <state relative-caret-position="187">
+                  <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -33,22 +34,12 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/output_2_8.txt">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/sample_in_out/sample_output_2_8.txt">
+            <entry file="file://$PROJECT_DIR$/src/output/output_3_1000.txt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="34">
-                  <caret line="2" selection-start-line="2" selection-end-line="2" />
+                <state>
+                  <caret column="4" lean-forward="true" selection-start-column="4" selection-end-column="4" />
                 </state>
               </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/sample_in_out/sample_input_2_8.tsv">
-              <provider selected="true" editor-type-id="text-editor" />
             </entry>
           </file>
         </leaf>
@@ -58,8 +49,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/DistanceCounter.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="215">
-                  <caret line="35" column="80" selection-start-line="35" selection-start-column="80" selection-end-line="35" selection-end-column="80" />
+                <state relative-caret-position="170">
+                  <caret line="31" column="35" lean-forward="true" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -78,6 +69,12 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>getHashMap</find>
+      <find>get</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -88,8 +85,11 @@
         <option value="$PROJECT_DIR$/src/MyFileReader.java" />
         <option value="$PROJECT_DIR$/src/read.me" />
         <option value="$PROJECT_DIR$/src/Util.java" />
-        <option value="$PROJECT_DIR$/src/DistanceCounter.java" />
         <option value="$PROJECT_DIR$/Test/DistanceCounterTest.java" />
+        <option value="$PROJECT_DIR$/src/FilePartReader.java" />
+        <option value="$PROJECT_DIR$/src/output/output_2_8.txt" />
+        <option value="$PROJECT_DIR$/test/TestDistanceCounter.java" />
+        <option value="$PROJECT_DIR$/src/DistanceCounter.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
       </list>
     </option>
@@ -123,6 +123,12 @@
               <item name="gravity-r&amp;d-task" type="b2602c69:ProjectViewProjectNode" />
               <item name="gravity-r&amp;d-task" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="output" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gravity-r&amp;d-task" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gravity-r&amp;d-task" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="sample_in_out" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -139,13 +145,21 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561540126334" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561545970746" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../BLUE_ROOM/oop-java-thehistory-gaborkallos" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/output" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -159,14 +173,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in gravity-r&amp;d-task">
-    <configuration name="DistanceCounterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DistanceCounterTest" />
-      <module name="gravity-r&amp;d-task" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.TestDistanceCounter">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="gravity-r&amp;d-task" />
@@ -188,16 +195,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestDistanceCounter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gravity-r&amp;d-task" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestDistanceCounter" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDistanceCounter.FileNotFound" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gravity-r&amp;d-task" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestDistanceCounter" />
+      <option name="METHOD_NAME" value="FileNotFound" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDistanceCounter.FileNotFoundTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gravity-r&amp;d-task" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestDistanceCounter" />
+      <option name="METHOD_NAME" value="FileNotFoundTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDistanceCounter.getResult" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gravity-r&amp;d-task" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestDistanceCounter" />
+      <option name="METHOD_NAME" value="getResult" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.DistanceCounterTest" />
       <item itemvalue="JUnit.All in gravity-r&amp;d-task" />
+      <item itemvalue="JUnit.TestDistanceCounter.FileNotFound" />
+      <item itemvalue="JUnit.TestDistanceCounter.getResult" />
+      <item itemvalue="JUnit.TestDistanceCounter" />
+      <item itemvalue="JUnit.TestDistanceCounter.FileNotFoundTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestDistanceCounter" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.All in gravity-r&amp;d-task" />
-        <item itemvalue="Application.DistanceCounterTest" />
+        <item itemvalue="JUnit.TestDistanceCounter.FileNotFoundTest" />
+        <item itemvalue="JUnit.TestDistanceCounter.getResult" />
+        <item itemvalue="JUnit.TestDistanceCounter.FileNotFound" />
       </list>
     </recent_temporary>
   </component>
@@ -211,22 +262,63 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561397646280</updated>
-      <workItem from="1561397664150" duration="20797000" />
+      <workItem from="1561397664150" duration="26491000" />
     </task>
+    <task id="LOCAL-00001" summary="Task is done, refactored">
+      <created>1561540165940</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1561540165940</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="TestDistanceCounter_getResult - 2019.06.26 at 12h 05m 47s.xml">
+      <configuration name="TestDistanceCounter.getResult" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestDistanceCounter - 2019.06.26 at 12h 06m 25s.xml">
+      <configuration name="TestDistanceCounter" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestDistanceCounter_FileNotFoundTest - 2019.06.26 at 12h 07m 06s.xml">
+      <configuration name="TestDistanceCounter.FileNotFoundTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestDistanceCounter - 2019.06.26 at 12h 07m 15s.xml">
+      <configuration name="TestDistanceCounter" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestDistanceCounter_getResult - 2019.06.26 at 12h 15m 38s.xml">
+      <configuration name="TestDistanceCounter.getResult" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestDistanceCounter_FileNotFoundTest - 2019.06.26 at 12h 26m 32s.xml">
+      <configuration name="TestDistanceCounter.FileNotFoundTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestDistanceCounter - 2019.06.26 at 12h 26m 39s.xml">
+      <configuration name="TestDistanceCounter" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestDistanceCounter - 2019.06.26 at 12h 39m 27s.xml">
+      <configuration name="TestDistanceCounter" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestDistanceCounter_FileNotFoundTest - 2019.06.26 at 12h 40m 02s.xml">
+      <configuration name="TestDistanceCounter.FileNotFoundTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestDistanceCounter - 2019.06.26 at 12h 40m 10s.xml">
+      <configuration name="TestDistanceCounter" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20797000" />
+    <option name="totallyTimeSpent" value="26491000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.20475927" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.20475927" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" />
@@ -235,8 +327,8 @@
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" />
-      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.32937366" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.32937366" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.39956802" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32937366" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
@@ -251,9 +343,44 @@
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.20475927" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.3297414" />
+      <window_info anchor="bottom" id="Database Changes" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.32937366" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.39956802" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32937366" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="right" id="Theme Preview" order="0" />
+      <window_info anchor="right" id="Database" order="1" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Task is done, refactored" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task is done, refactored" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/sample_in_out/sample_input_100_100.tsv">
@@ -285,9 +412,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample_in_out/sample_input_2_8.tsv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Test/DistanceCounterTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
@@ -305,13 +429,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/output_2_8.txt">
+    <entry file="file://$PROJECT_DIR$/src/FilePartReader.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample_in_out/sample_input_2_8.tsv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/output/output_2_8.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="19" lean-forward="true" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/output/output_3_1000.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" lean-forward="true" selection-start-column="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/output/output_10_100.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/TestDistanceCounter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="65" selection-start-line="12" selection-start-column="65" selection-end-line="12" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample_in_out/sample_output_10_100.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DistanceCounter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="35" column="80" selection-start-line="35" selection-start-column="80" selection-end-line="35" selection-end-column="80" />
+        <state relative-caret-position="170">
+          <caret line="31" column="35" lean-forward="true" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -320,8 +481,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        <state relative-caret-position="187">
+          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

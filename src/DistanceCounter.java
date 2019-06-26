@@ -11,29 +11,34 @@ import java.util.Scanner;
 
 public class DistanceCounter {
 
-    private List<String> readFile(String filename) {
-        List<String> records = new ArrayList<String>();
-        try {
-            BufferedReader reader = new BufferedReader(new FileReader(filename));
-            String line;
-            while ((line = reader.readLine()) != null) {
-                records.add(line);
-            }
-            reader.close();
-            return records;
-        } catch (Exception e) {
-            System.err.format("Exception occurred trying to read '%s'.", filename);
-            e.printStackTrace();
-            return null;
+    public List<String> readFile(String filename) throws Exception {
+        List<String> records = new ArrayList<>();
+        BufferedReader reader = new BufferedReader(new FileReader(filename));
+        String line;
+        while ((line = reader.readLine()) != null) {
+            records.add(line);
         }
+        reader.close();
+        return records;
     }
-    public void writeTextFile(String filename, HashMap<Integer, List<String>> result){
+
+    public void writeTextFile(String filename, HashMap<Integer, List<String>> result) {
         try (FileWriter writer = new FileWriter(filename);
              BufferedWriter bw = new BufferedWriter(writer)) {
 
             for (Integer key : result.keySet()) {
-                bw.write(key + ":" + Math.round(Float.valueOf(result.get(key).get(0))) +
-                        "\t" + Math.round(Float.valueOf(result.get(key).get(1))) + "\n");
+                bw.write(key + ":");
+                for (int i = 0; i < result.get(key).size(); i++) {
+                    bw.write(String
+                            .valueOf(Math.round(
+                                    Float.valueOf(
+                                            result.get(key).get(i)
+                                    ))));
+                    if (i < result.get(key).size()) {
+                        bw.write("\t");
+                    }
+                }
+                bw.write("\n");
             }
 
         } catch (Exception e) {
@@ -53,7 +58,7 @@ public class DistanceCounter {
     }
 
 
-    HashMap<Integer, List<String>> getHashMap(String filename) {
+    HashMap<Integer, List<String>> getHashMap(String filename) throws Exception {
         HashMap<Integer, List<String>> points = new HashMap<>();
         List<String> coordinates = readFile(filename);
         int i = 1;
