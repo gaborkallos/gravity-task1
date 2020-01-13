@@ -13,12 +13,9 @@ public class Main {
         try {
             HashMap<Integer, List<String>> points = myDC.getHashMap(inputRoot + inFileName);
             myDC.writeTextFile(outputRoot+outFileName, myDC.getResult(points));
-        }catch (Exception e) {
+        } catch (Exception e) {
         System.err.format("Exception occurred trying to read '%s'.", inFileName);
             e.printStackTrace();
-
+        }
     }
-
-    }
-
 }
